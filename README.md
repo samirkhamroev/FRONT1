@@ -1,61 +1,58 @@
-# 🎤 Eminem Store & Backend Practice 🎤
+# 🎤 Eminem Store — Fullstack Проект
 
-Welcome to the **Eminem Store** project! This repository contains a full-stack application featuring a React-based storefront and an Express-based backend structured for progressive learning.
-
----
-
-## 📁 Project Structure
-
-- **`Eminem Store/`**: The frontend application built with **React** and **Vite**. A stylish shop for Marshall Mathers fans. 🛒
-- **`practica 2-6/`**: The initial backend implementation (Express, JWT, Multer). 🚀
-- **`practica 7-8/`**: Evolution of the backend (Duplicate for further tasks). 🛠️
-- **`practica 9-10/`**: Evolution of the backend (Duplicate for further tasks). 🛠️
-- **`practica 11-12/`**: Evolution of the backend (Duplicate for further tasks). 🛠️
+Добро пожаловать в проект **Eminem Store**! Это полноценное Fullstack-приложение, включающее современный фронтенд на React и мощный бэкенд на Node.js. Проект структурирован по этапам разработки (практикам).
 
 ---
 
-## 🚀 Getting Started
+## 📁 Структура проекта
 
-### 💻 Frontend (Eminem Store)
-1. Navigate to the directory:
-   ```bash
-   cd "Eminem Store"
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-### ⚙️ Backend (Practica 2-6)
-1. Navigate to the directory:
-   ```bash
-   cd "practica 2-6"
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the server:
-   ```bash
-   node app.js
-   ```
+- **`Eminem Store/`**: Фронтенд-часть. Стильный магазин мерча Маршалла Мэтерса. Построен на **React + Vite**. 🛒
+- **`практика 2-6/`**: Базовая реализация серверной части (Express, работа с Multer, JWT). 🚀
+- **`практика 7-8/`**: Расширение функционала (Refresh Tokens, ролевая модель доступа). 🛠️
+- **`практика 9-10/`**: Оптимизация API и управление пользователями. 🛠️
+- **`практика 11-12/`**: Финальная версия с полной интеграцией и расширенной безопасностью. 🛠️
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Выполненные задачи (по модулям)
 
-- **Frontend**: React, Vite, SCSS, Axios
-- **Backend**: Node.js, Express, JWT, Multer (for image uploads)
-- **Styling**: Vanilla SCSS for that sharp look.
+### Модуль 1-6: Основы бэкенда и API
+- [x] Развертывание сервера на **Express.js**.
+- [x] Настройка **CORS** для взаимодействия с фронтендом.
+- [x] Реализация загрузки изображений товаров через **Multer**.
+- [x] Создание системы аутентификации (регистрация/логин).
+- [x] CRUD операции для товаров (просмотр, добавление, удаление).
+
+### Модуль 7-10: Безопасность и роли
+- [x] Внедрение **JWT (JSON Web Tokens)** для защиты маршрутов.
+- [x] Реализация **Refresh Tokens** для долгоживущих сессий.
+- [x] Ролевая модель доступа (**RBAC**): разделение прав для пользователей, продавцов и администраторов.
+- [x] Middleware для проверки авторизации и ролей.
+
+### Модуль 11-12: Интеграция и финализация
+- [x] Полная связка фронтенда с API через **Axios**.
+- [x] Динамическое отображение товаров из базы данных сервера.
+- [x] Защищенная панель управления (Админка) для управления контентом.
+- [x] Обработка ошибок и валидация данных на стороне сервера.
 
 ---
 
-## 📝 Notes
-This project is organized into multiple folders to track progress through different "Practica" stages. Each folder represents a milestone in the development lifecycle.
+## 🚀 Запуск проекта
+
+### 💻 Фронтенд (Eminem Store)
+1. Перейдите в папку: `cd "Eminem Store"`
+2. Установите зависимости: `npm install`
+3. Запустите сервер разработки: `npm run dev` (по умолчанию на http://localhost:5173)
+
+### ⚙️ Бэкенд (на примере практики 11-12)
+1. Перейдите в нужную папку: `cd "практика 11-12"`
+2. Установите зависимости: `npm install`
+3. Запустите сервер: `node app.js` (по умолчанию на http://localhost:3000)
 
 ---
-*Created with ❤️ for the Shady Family.*
+
+## 🎥 Демонстрация
+В корне репозитория вы найдете файл **`video2.mp4`**, в котором показана работа основных функций приложения.
+
+---
+*Разработано с ❤️ для семьи Shady. Все права на контент принадлежат их владельцам.*
